@@ -9,9 +9,7 @@ function countLetters(string) {
     if (result[letter] !== undefined) {
       result[letter].push(i)
     } else {
-      result[letter] = [i]; // add a key value pair to the results object
-                          // The key will be letter, so results[letter] = value
-                          // The value will be 1
+      result[letter] = [i];
     }
   }
   return result;
